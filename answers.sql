@@ -1,5 +1,5 @@
 -- QUESTION 1
--- No partial dependencies allowed.
+
 
 -- Recreate the table in 1NF
 SELECT 101 AS OrderID, 'John Doe' AS CustomerName, 'Laptop' AS Product
@@ -17,6 +17,7 @@ SELECT 103, 'Emily Clark', 'Phone';
 
 
 -- QUESTION 2
+-- since No partial dependencies are allowed.
 
 -- Separate table for customers
 SELECT DISTINCT OrderID, CustomerName
